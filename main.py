@@ -36,4 +36,5 @@ async def get_root() -> dict:
 
 
 if __name__ == "__main__":
+    print("Sample App is now running on port 7001. Open http://127.0.0.1:7001/ in your browser.")
     uvicorn.run("main:app", port=7001, reload=True)
